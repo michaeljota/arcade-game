@@ -1,15 +1,15 @@
-#Udacity Arcade Game
+Udacity Arcade Game
 ===============================
 
 This game was made using the [Udacity's Frontend Nanodegree](https://github.com/udacity/frontend-nanodegree-arcade-game) seed. However, this was made as an final assignment in the [Object Oriented Javascript](https://www.udacity.com/course/object-oriented-javascript--ud015) free course.
 
-##Run
+## Run
 
-You can play online [here]()
+You can play online [here](https://michaeljota.github.io/arcade-game/)
 
 You'll need a webserver in order to run this game in your local machine. Although it may work by opening the `index.html`, is not recommended.
 
-##Play
+## Play
 
 - Press ENTER to start the game
 - Change your avatar with ← and → arrows
