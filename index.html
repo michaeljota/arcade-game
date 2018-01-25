@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Effective JavaScript: Frogger</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="game">
+        <canvas id="canvas"></canvas>
+        <div class="message">
+            <div id="gameOver" class="hidden">
+                <h1>GAME OVER</h1>
+                <span>Press R to restart the game</span>
+            </div>
+            <div id="pause" class="hidden">
+                <h1>PAUSE</h1>
+                <span>Press Enter to resume the game</span>
+            </div>
+            <div id="win" class="hidden">
+                <h1>YOU WIN</h1>
+                <span>Press R to restart the game</span>
+            </div>
+            <div id="welcome">
+                <h1>READY?</h1>
+                <span>Press <h3>ENTER</h3> to start the game</span>
+                <div class="info">
+                    <span>Change your avatar with ← and → arrows</span>
+                    <span>Move with ↑, ↓, →, ← arrows</span>
+                    <span>Try to get the river without the bugs bugging you</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/resources.js"></script>
+    <script src="js/engine.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/enemy.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
